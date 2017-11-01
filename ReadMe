@@ -1,0 +1,15 @@
+
+Weighted Spatial Covariance Matrix Estimation for MUSIC based TDOA Estimation of Speech Source
+
+Tools for TDOA, DOA estimation using WSCM-MUSIC method in the paper, please cite:
+  Chenglin Xu, Xiong Xiao, Sining Sun, Wei Rao, Eng Siong Chng, and Haizhou Li. 
+  "Weighted Spatial Covariance Matrix Estimation for MUSIC based TDOA 
+  Estimation of Speech Source." Proc. Interspeech 2017 (2017): 1894-1898.
+
+1. It supports 8-channel circular array with diameter 0.2m, single speaker in noise and reverberant environment. One channel in one wavfile with the format (i.e., "*_ch1.wav"). An example is shown in the "./data" folder.
+
+Remember to revise the input wav part, if your wav is 8 channels in one file. Store them in Int16, as our inputs to network are Int16.
+
+2. If your array is not circular with diameter 0.2m, you need to revise the trueTDOA.m and doa2tdoa.m accordingly.
+
+3. In our example, the true DOA is 135, and the estimation is also 135.
