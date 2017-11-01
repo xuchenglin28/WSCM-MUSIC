@@ -7,7 +7,7 @@ function [eTDOA, eDOA] = evalSCMTDOA_music(wav_root)
 % @inputs: 
 %     wav_root: wavfile directory (each channel is in one file, i.e., "*_ch1.wav")
 % @outputs:
-%     eTDOA: estimated TDOA
+%     eTDOA: estimated TDOA (delay in samples, not second)
 %     eDOA: estimated DOA
 %
 % Please cite our paper,
