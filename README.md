@@ -7,7 +7,7 @@ Please cite:
   Estimation of Speech Source." Proc. Interspeech 2017 (2017): 1894-1898.
   
   How to use:
-  1. Unzip the nnet/nnet.mat.7z.001
+  1. Unzip the nnet/nnet.mat.7z.001 \n
      Use the command: 7z e nnet/nnet.mat.7z.001
   2. Add "SignalGraph" toolbox in the matlab path
      Clone the SignalGraph: git clone https://github.com/singaxiong/SignalGraph.git
