@@ -21,3 +21,7 @@ Please cite:
      If you want to use gpu, run: gpuDevice()
      
   3. Run: [eTDOA, eDOA] = evalSCMTDOA_music('./data')
+
+## Licence
+
+The code and models in this repository are licensed under the GNU General Public License Version 3. For commercial use of this code and models, separate commercial licensing is also available. Please contact: Chenglin Xu (xuchenglin28@gmail.com)
