@@ -4,8 +4,8 @@ Weighted Spatial Covariance Matrix Estimation for MUSIC based TDOA Estimation of
 Please cite:
 
   Chenglin Xu, Xiong Xiao, Sining Sun, Wei Rao, Eng Siong Chng, and Haizhou Li. 
-  "Weighted Spatial Covariance Matrix Estimation for MUSIC based TDOA 
-  Estimation of Speech Source." Proc. Interspeech 2017 (2017): 1894-1898.
+  "Weighted Spatial Covariance Matrix Estimation for MUSIC based TDOA Estimation of Speech Source." 
+  Proc. Interspeech 2017 (2017): 1894-1898.
   
   How to use:
   1. Unzip the nnet/nnet.mat.7z.001 
@@ -24,4 +24,16 @@ Please cite:
 
 ## Licence
 
-The code and models in this repository are licensed under the GNU General Public License Version 3. For commercial use of this code and models, separate commercial licensing is also available. Please contact: Chenglin Xu (xuchenglin28@gmail.com)
+The code and models in this repository are licensed under the GNU General Public License Version 3.
+
+## Citation
+If you would like to cite, use this :
+```BibTex
+@inproceedings{xu2017weighted,
+  title={Weighted Spatial Covariance Matrix Estimation for MUSIC Based TDOA Estimation of Speech Source.},
+  author={Xu, Chenglin and Xiao, Xiong and Sun, Sining and Rao, Wei and Chng, Eng Siong and Li, Haizhou},
+  booktitle={Proc. of INTERSPEECH},
+  pages={1894--1898},
+  year={2017}
+}
+```
